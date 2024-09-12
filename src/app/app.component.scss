@@ -1,0 +1,18 @@
+::ng-deep {
+    .ant-table-body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #1890ff; /* Customize the thumb color */
+  border-radius: 10px;
+}
+
+.ant-table-body::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Customize the track color */
+}
+
+.ant-table-body::-webkit-scrollbar-thumb:hover {
+  background-color: #40a9ff; /* Change color on hover */
+}
+}
